@@ -5,4 +5,5 @@ branches:
 projects:
   ChestRefill:
     path: ""
+    icon: logo.jpg
 ...
