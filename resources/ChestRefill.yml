@@ -1,0 +1,14 @@
+---
+#Plugin made by TutoGamerWalid
+chest_refill_time: 10
+items_per_refill: 1
+#This is for chest fill in all worlds
+#if you set it to true you dont need to modify the chest_coords
+all-chest-refill-worlds: true
+chest_coords:
+  #- x:y:z:levelName
+  - "170:210:57:world"
+items:
+  #- id:damage:amount
+  - "357:0:1"
+...
