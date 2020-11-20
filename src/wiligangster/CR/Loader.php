@@ -23,7 +23,6 @@ class Loader extends PluginBase
     {
         if (!file_exists($this->getDataFolder() . "/ChestRefill.yml")) {
             $this->saveResource("ChestRefill.yml");
-            $this->getLogger()->info("config has been created !");
         }
         $this->chestRefill = new Config($this->getDataFolder() . "/ChestRefill.yml", Config::YAML);
         $all = $this->chestRefill->getAll();
